@@ -16,7 +16,7 @@ $ node app.js
 or
 
 ```sh
-$ git clone -b '1.0.0' https://github.com/TasosY2K/discord-webhook-cli.git
+$ wget https://github.com/TasosY2K/discord-webhook-cli/releases/download/1.0.0/discord-webhook-cli.exe
 $ discord-webhook-cli.exe
 ```
 
