@@ -1,0 +1,32 @@
+{
+  "name": "discord-webhook-cli",
+  "version": "1.0.0",
+  "description": "A simple cli for sending messages with discord through webhook requests",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TasosY2K/discord-webhook-cli.git"
+  },
+  "keywords": [
+    "discord",
+    "cli",
+    "webhook"
+  ],
+  "author": "L34ND3V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TasosY2K/discord-webhook-cli/issues"
+  },
+  "homepage": "https://github.com/TasosY2K/discord-webhook-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.3",
+    "inquirer": "^6.5.0",
+    "is-url": "^1.2.4",
+    "request": "^2.88.0"
+  }
+}
