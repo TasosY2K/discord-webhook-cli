@@ -39,7 +39,11 @@ inquirer.prompt(config.webhook_url).then(output => {
   inquirer.prompt(config.message).then(output => {
     message = output.message;
     request({uri: webhook_url, method: 'POST', json: {content: message}}, (err, rsp, body) => {
-      if (!err) console.log(chalk.green("\nMessage was send successfuly"));
+      if (!body) {
+        console.log(chalk.green("\nMessage was send successfuly"));
+      } else {
+        console.log(chalk.red("\n"+body.message));
+      }
     });
   });
 });
