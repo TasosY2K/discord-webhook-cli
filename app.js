@@ -19,7 +19,7 @@ if (!args[0]){
     if (!body) {
       console.log(chalk.green("Message was send successfuly"));
     } else {
-      console.log(chalk.red(body.message));
+      console.log(chalk.red("Error: " + body.message));
     }
   });
   return;
@@ -42,7 +42,7 @@ inquirer.prompt(config.webhook_url).then(output => {
       if (!body) {
         console.log(chalk.green("\nMessage was send successfuly"));
       } else {
-        console.log(chalk.red("\n"+body.message));
+        console.log(chalk.red("\nError: " + body.message));
       }
     });
   });
