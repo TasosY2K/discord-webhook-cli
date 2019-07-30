@@ -34,4 +34,4 @@ $ node app.js
 
 and use the gui for your input
 
-![Screenshot](https://cdn1.imggmi.com/uploads/2019/7/18/dbb70e04670d659ea1e88c11f8e1c82d-full.png)
+![Screenshot](https://user-images.githubusercontent.com/29873078/62170695-05980c00-b335-11e9-9bef-2bcdf0168aaf.png)
